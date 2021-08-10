@@ -4,9 +4,7 @@
 
 #include "Person.h"
 
-Person::Person(std::string name,
-               int conscience) : name {name},
-                                 conscience {conscience}
+Person::Person(std::string name, int conscience) : name {name}, conscience {conscience}
 {}
 
 Person::~Person() = default;

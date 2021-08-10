@@ -6,5 +6,6 @@
 #define ORDENACAO_INTERPLANETARIA_TESTCASES_H
 
 void test_person();
+void test_quicksort();
 
 #endif //ORDENACAO_INTERPLANETARIA_TESTCASES_H
