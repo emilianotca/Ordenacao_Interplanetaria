@@ -7,5 +7,6 @@
 
 void test_person();
 void test_quicksort();
+void test_heapsort();
 
 #endif //ORDENACAO_INTERPLANETARIA_TESTCASES_H

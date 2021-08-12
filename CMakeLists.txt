@@ -3,4 +3,4 @@ project(Ordenacao_Interplanetaria)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Ordenacao_Interplanetaria main.cpp Utils.h Person.h Person.cpp Testcases.h Testcases.cpp)
+add_executable(Ordenacao_Interplanetaria main.cpp Utils.h Person.h Person.cpp Testcases.h Testcases.cpp Utils.cpp)
