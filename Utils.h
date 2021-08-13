@@ -8,8 +8,8 @@
  * utilizados, exceto pela adaptação para a linguagem C++11 quando necessária e os detalhes de implementaçao pertinentes
  * apenas à este trabalho.
  * Quicksort: Fonte 0
- * Heapsort: Fonte 1
- * Mergesort e Radixsort: Fonte 2
+ * Heapsort e Radixsort: Fonte 1
+ * Mergesort: Fonte 2
  *
  * Fonte 0: Projeto de Algoritmos com Implementações em Pascal e C
  *          Nívio Ziviani, PhD
