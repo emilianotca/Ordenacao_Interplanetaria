@@ -195,7 +195,7 @@ void quicksortB(Person* A, int l, int r, int w)
     int i {l};
     int j {r};
 
-    if(r <= l)
+    if(r <= l || w >= A->get_conscience().length())
     {
         return;
     }
@@ -220,13 +220,11 @@ void quicksortB(Person* A, int l, int r, int w)
         j++;
     }
 
-    quicksortB(A, l, j-1, w-1);
-    quicksortB(A, j, r, w-1);
+    quicksortB(A, l, j-1, w+1);
+    quicksortB(A, j, r, w+1);
 }
 
 void Radixsort(Person* A, int l, int r)
 {
-    int con_length = static_cast<int>(A->get_conscience().length()) - 1;
-
-    quicksortB(A, l, r-1, con_length);
+    quicksortB(A, l, r-1, 0);
 }
