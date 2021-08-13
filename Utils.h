@@ -80,28 +80,59 @@ void Constroi(Person* A, int n);
 void Heapsort(Person* A, int n);
 
 /**
+ * Função 'Merge', que faz a união de dois subvetores
  *
- * @param array
- * @param left
- * @param mid
- * @param right
+ * @param array Vetor de pessoas a ser unido
+ * @param left Índice da esquerda do vetor a ser unido
+ * @param mid Meio do vetor a ser unido
+ * @param right Índice da direita do vetor a ser unido
  */
 void merge(Person* array, int left, int mid, int right);
 
 /**
+ * Mergesort
  *
- * @param array
- * @param begin
- * @param end
+ * @param array Vetor de pessoas a ser ordenado
+ * @param begin Índice de íncio do vetor a ser ordenado
+ * @param end Índice de final do vetor a ser ordenado
  */
 void mergeSort(Person* array, int begin, int end);
 
+/**
+ * Função 'exch', para fazer o swap de dois elementos de um vetor
+ *
+ * @param A Vetor a ter seus elementos trocados
+ * @param subj0 Índice do elemento a ser trocado
+ * @param subj1  Índice do elemento a ser trocado
+ */
 void exch(Person* A, int subj0, int subj1);
 
+/**
+ * Função quicksortB, que faz a ordenação com base nos bits
+ *
+ * @param A Vetor de pessoas a ser ordenado
+ * @param l Índice da esquerda do vetor de pessoas
+ * @param r Índice da direita do vetor de pessoas
+ * @param w Índice para o controle de bit analisado
+ */
 void quicksortB(Person* A, int l, int r, int w);
 
+/**
+ * Função auxiliar para retornar o bit de interesse de uma determinada palavra binária na forma de uma string
+ *
+ * @param A Objeto do tipo 'Person' que contém a palavra de interesse
+ * @param position Posição do bit de interesse
+ * @return Bit de interesse a ser retornado na forma de um char
+ */
 char digit(const Person& A, int position);
 
+/**
+ * Radixsort
+ *
+ * @param A Vetor de pessoas a ser ordenado
+ * @param l Índice da esquerda do vetor
+ * @param r Índice da direita do vetor
+ */
 void Radixsort(Person* A, int l, int r);
 
 #endif //ORDENACAO_INTERPLANETARIA_UTILS_H
