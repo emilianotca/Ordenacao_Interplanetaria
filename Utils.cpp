@@ -195,7 +195,7 @@ void quicksortB(Person* A, int l, int r, int w)
     int i {l};
     int j {r};
 
-    if(r <= l || w >= A->get_conscience().length())
+    if(r <= l || w >= static_cast<int>(A->get_conscience().length()))
     {
         return;
     }
